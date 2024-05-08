@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+}
+
+/* saniyeler olmasin */
+.no_animation * {
+    transition: unset!important
+}
+
+html,
+body{
+    float: left;
+    width: 100%;
+    min-height: 100vh;
+}
+button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a,
+span{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol{
+    float: left;
+}
+
+ul li,
+ol li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+
+select,
+input[type="radio"],
+input[type="checkbox"],
+input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+
+.center{
+    text-align: center;
+}
+.full_w{
+    width: 100%;
+}
+.floating{
+    float: left;
+}
